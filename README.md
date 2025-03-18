@@ -1,2 +1,3 @@
 # FocusTrack
-KAIST x CMU LSMA Projectr
+KAIST x CMU LSMA Project
+Michelle Sohn, Mel Kwon
