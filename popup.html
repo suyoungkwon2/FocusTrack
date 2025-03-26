@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusTrack</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>FocusTrack</h1>
+      <p class="subtitle">Your Productivity Partner</p>
+    </header>
+    
+    <div class="stats-container">
+      <div class="stat-item">
+        <h3>Today's Activity</h3>
+        <p id="today-count">Loading...</p>
+      </div>
+      <div class="stat-item">
+        <h3>Focus Score</h3>
+        <p id="focus-score">Loading...</p>
+      </div>
+    </div>
+    
+    <div class="recent-activity">
+      <h3>Recent Activity</h3>
+      <ul id="recent-sites">
+        <!-- 자바스크립트로 채워질 부분 -->
+      </ul>
+    </div>
+    
+    <div class="action-buttons">
+      <button id="view-analytics">View Analytics</button>
+      <button id="start-focus">Start Focus Mode</button>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "FocusTrack",
+  "version": "2.2.0",
+  "description": "Web surfing time tracking and category classification extension",
+  "permissions": [
+    "storage",
+    "tabs",
+    "history",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "chrome_url_overrides": {
+    "newtab": "pages/test.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+} 

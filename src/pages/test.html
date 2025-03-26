@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FocusTrack - Web Activity Analysis</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FocusTrack</h1>
+        
+        <div class="actions">
+            <button id="testHistory">Test History</button>
+            <button id="clearResults">Clear Results</button>
+            <button id="exportToCsv">Export to CSV</button>
+        </div>
+
+        <div class="site-statistics">
+            <div class="statistics-section">
+                <h3>카테고리 분포</h3>
+                <div class="category-distribution"></div>
+            </div>
+            
+            <div class="visits-section">
+                <h3>방문 기록</h3>
+                <div class="visit-list"></div>
+            </div>
+        </div>
+
+        <div class="timeline-section">
+            <h2>Activity Timeline</h2>
+            <div id="timeline" class="timeline-container"></div>
+        </div>
+
+        <div id="error" class="error-message"></div>
+    </div>
+    <script src="../../dist/pages/test.js"></script>
+</body>
+</html> 
